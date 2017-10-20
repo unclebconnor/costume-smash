@@ -1,0 +1,29 @@
+
+html, body {
+  margin:0;
+  padding: 0;
+}
+
+.fullWindow{
+  text-align: center;
+}
+
+header{
+	background-color: black;
+	color: white;
+	height: 40px;
+}
+
+.navWrapper {
+	background-color: blue;
+	color: white;
+}
+
+.sidebarSection{
+	border-right: 1px solid lightgray;
+	height: 500px;
+}
+
+.mainSection{
+
+}
