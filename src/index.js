@@ -22,7 +22,7 @@ let items = [{
 				bodySection: "bodyWear",
 				characterName: "Thor",
 				amazonLink: "www.amazon.blah"
-			},	itemName:"Thor's Helmet",
+			},{	itemName:"Thor's Helmet",
 				description: "This is a dope helmet",
 				size: "XL",
 				imageUrl: "img/thorsHelmet.jpg",
@@ -39,7 +39,7 @@ let items = [{
 				bodySection: "head",
 				characterName: "Thor",
 				amazonLink: "www.amazon.blah"
-			},	itemName:"Thor's Pecs",
+			},{	itemName:"Thor's Pecs",
 				description: "These are dope pecs",
 				size: "XL",
 				imageUrl: "img/thorsHelmet.jpg",
@@ -48,15 +48,15 @@ let items = [{
 				characterName: "Thor",
 				amazonLink: "www.amazon.blah"
 			},{
-				itemName:"Thor's Pants",
-				description: "Flattering Pants",
-				size: "XL",
+				itemName:"Moana's Shirt",
+				description: "Bad-ass shirt",
+				size: "M",
 				imageUrl: "img/thorsArmor.jpg",
 				price: 19.99,
-				bodySection: "legWear",
-				characterName: "Thor",
+				bodySection: "bodyWear",
+				characterName: "Moana",
 				amazonLink: "www.amazon.blah"
-			},	itemName:"Thor's Socks",
+			},{	itemName:"Thor's Socks",
 				description: "Sweet socks",
 				size: "XL",
 				imageUrl: "img/thorsHelmet.jpg",
@@ -70,7 +70,7 @@ let items = [{
 				size: "XL",
 				imageUrl: "img/thorsArmor.jpg",
 				price: 19.99,
-				bodySection: "Accessories",
+				bodySection: "accessories",
 				characterName: "Thor",
 				amazonLink: "www.amazon.blah"
 			}]

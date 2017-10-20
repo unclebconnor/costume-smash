@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import OwlCarousel from 'react-owl-carousel';
+// import OwlCarousel from 'react-owl-carousel';
 import './App.css';
 
 class Main extends Component {
@@ -114,45 +114,13 @@ class Main extends Component {
   // return
 
   render() {
-    console.log("This MAIN state is", this.state);
+    console.log("MAIN STATE", this.state);
     return (
       <div className="mainWindow">
         <div>MAIN WINDOW</div>
           <div className="sliderAll">
             <div className="head">
-            <OwlCarousel className="owl-theme" loop margin={10} nav>
-            	  <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-            </OwlCarousel>
-            </div>
-            <div className="bodyWear">
-            <OwlCarousel className="owl-theme" loop margin={10} nav>
-            	  <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-            </OwlCarousel>
-            </div>
-            <div className="legWear">
-            <OwlCarousel className="owl-theme" loop margin={10} nav>
-            	  <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-            </OwlCarousel>
-            </div>
-            <div className="footWear">
-            <OwlCarousel className="owl-theme" loop margin={10} nav>
-            	  <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-            </OwlCarousel>
-            </div>
-            <div className="accessories">
-            <OwlCarousel className="owl-theme" loop margin={10} nav>
-            	  <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-                <div className="item"><img src={require('./img/thor.jpg')} /></div>
-            </OwlCarousel>
+
             </div>
           </div>
       </div>
