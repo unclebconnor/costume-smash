@@ -8,7 +8,11 @@ class Main extends Component {
 
     this.state={
       charSelection: {
-
+        head: [{}],
+				bodyWear: [{}],
+				legWear: [{}],
+				footWear: [{}],
+				accessories: [{}],
       }
     }
   }
@@ -32,13 +36,14 @@ class Main extends Component {
   // return
 
   render() {
-    console.log("MAIN STATE", this.state);
+    console.log("MAIN STATE", this.state.charSelection.head, this.state);
+    let head = this.state.charSelection.head;
     return (
       <div className="mainWindow">
         <div>MAIN WINDOW</div>
           <div className="carouselRow">
           <OwlCarousel className="owl-theme headWear" loop margin={10}>
-            {this.state.charSelection.head.map((item,index) => {
+            {head.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
                   <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"head")}/>
@@ -48,89 +53,54 @@ class Main extends Component {
           </OwlCarousel>
           </div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme bodyWear" loop margin={10}>
-            {this.state.charSelection.head.map((item,index) => {
+          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+            {head.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"head")}/>
+                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"bodyWear")}/>
                 </div>
               )
             })}
           </OwlCarousel>
           </div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme legWear" loop margin={10}>
-            {this.state.charSelection.head.map((item,index) => {
+          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+            {head.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"head")}/>
+                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"legWear")}/>
                 </div>
               )
             })}
           </OwlCarousel>
           </div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme footWear" loop margin={10}>
-            {this.state.charSelection.head.map((item,index) => {
+          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+            {head.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"head")}/>
+                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"footWear")}/>
                 </div>
               )
             })}
           </OwlCarousel>
           </div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme accessories" loop margin={10}>
-            {this.state.charSelection.head.map((item,index) => {
+          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+            {head.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"head")}/>
+                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"accessories")}/>
                 </div>
               )
             })}
           </OwlCarousel>
           </div>
-
-
-              {/* <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-          </OwlCarousel>
-        </div>
-          <OwlCarousel className="owl-theme bodyWear" loop margin={10}>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-          </OwlCarousel>
-          <OwlCarousel className="owl-theme legWear" loop margin={10}>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-          </OwlCarousel>
-          <OwlCarousel className="owl-theme footWear" loop margin={10}>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-          </OwlCarousel>
-          <OwlCarousel className="owl-theme accessories" loop margin={10}>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-              <div className="item img-responsive carouselImg"><img src={require('./img/thorHelmet.png')} alt="" /> </div>
-          </OwlCarousel> */}
       </div>
+
     );
   }
 }
+
 
 export default Main;
