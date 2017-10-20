@@ -30,7 +30,7 @@ span {
 }
 
 .sidebarSection{
-	border-right: 1px solid lightgray;
+	border-right: 1px solid lightgrey;
 	height: 500px;
 }
 
@@ -39,6 +39,9 @@ span {
 }
 .img-responsive{
   width: 92px;
+}
+.carouselRow {
+  height: 100px;
 }
 
 /*.owl-theme {
