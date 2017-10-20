@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
+
+// import manEllipse from './img/manEllipse.png';
+// import manPants from './img/manPants.png';
+// import manFeet from './img/manFeet.png';
+// import manTorso from './img/manTorso.png';
+// import manLogo from './img/Logo.png';
+
+
 class Sidebar extends Component {
 	constructor(props) {
 		super(props);
@@ -26,19 +34,36 @@ class Sidebar extends Component {
     })
   }
 
-  componentWillReceiveProps() {
+  componentWillReceiveProps(newProps) {
     this.setState({
-      userSelection: this.props.userSelection
+      userSelection: newProps.userSelection
     })
   }
 
   render() {
     console.log("SIDEBAR STATE",this.state)
-    console.log("SIDEBAR PROPS",this.props)
+    console.log("SIDEBAR Head Image",this.state.userSelection.head)
+
    	return (
    	  	<div className="sideBarWindow">
    	  		<div>SIDEBAR WINDOW</div>
-   	  		<div ><img className="img-responsive" src={require('./img/thorHelmet.png')} alt="" /></div>
+   	  		<div className="mannequinBackground">
+            <div className="carouselRow">
+              <img className="img-responsive" src={this.state.userSelection.head.size} alt="" />
+            </div>
+            <div className="carouselRow">
+              <img className="img-responsive" src={this.state.userSelection.bodyWear.size} alt="" />
+            </div>
+            <div className="carouselRow">
+              <img className="img-responsive" src={this.state.userSelection.legWear.size} alt="" />
+            </div>
+            <div className="carouselRow">
+              <img className="img-responsive" src={this.state.userSelection.footWear.size} alt="" />
+            </div>
+            <div className="carouselRow">
+              <img className="img-responsive" src={this.state.userSelection.accessories.size} alt="" />
+            </div>
+          </div>
    	  	</div>
    	);
   }

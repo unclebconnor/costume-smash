@@ -3,13 +3,88 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import ThorHelm1 from './img/ThorHelm1.jpg';
+import ThorHelm2 from './img/ThorHelm2.jpg';
+import ThorHelm3 from './img/ThorHelm3.jpg';
+import ThorHelm4 from './img/ThorHelm4.jpg';
+import ThorHelm5 from './img/ThorHelm5.jpg';
+import ThorHat from './img/ThorHat.jpg';
+import ThorHelm6 from './img/ThorHelm6.jpg';
+import ThorHelm7 from './img/ThorHelm7.jpg';
+import ThorHelm8 from './img/ThorHelm8.jpg';
+import ThorWig1 from './img/ThorWig1.jpg';
+import ThorWig2 from './img/ThorWig2.jpg';
+import VikingArmor1 from './img/VikingArmor1.jpg';
+import VikingArmor2 from './img/VikingArmor2.jpg';
+import ThorCostumeFull from './img/ThorCostumeFull.jpg';
+import Cape1 from './img/Cape1.jpg';
+import Cape2 from './img/Cape2.jpg';
+import Cape3 from './img/Cape3.jpg';
+import Pauldron from './img/Pauldron.jpg';
+import AirsoftArmor from './img/AirsoftArmor.jpg';
+import MuscleArmor from './img/MuscleArmor.jpg';
+import SilverShirt from './img/SilverShirt.jpg';
+import CompressionShirt from './img/CompressionShirt.jpg';
+import MotorcyclePants1 from './img/MotorcyclePants1.jpg';
+import Sweatpants1 from './img/Sweatpants1.jpg';
+import SoccerPants1 from './img/SoccerPants1.jpg';
+import SoccerPants2 from './img/SoccerPants2.jpg';
+import SoccerPants3 from './img/SoccerPants3.jpg';
+import BootCovers1 from './img/BootCovers1.jpg';
+import FancyBoots1 from './img/FancyBoots1.jpg';
+import FancyBoots2 from './img/FancyBoots2.jpg';
+import JungleBoots1 from './img/JungleBoots1.jpg';
+import JungleBoots2 from './img/JungleBoots2.jpg';
+import Gauntlets1 from './img/Gauntlets1.jpg';
+import Gauntlets2 from './img/Gauntlets2.jpg';
+import Hammer1 from './img/Hammer1.jpg';
+import Hammer2 from './img/Hammer2.jpg';
+import Hammer3 from './img/Hammer3.jpg';
+import Hammer4 from './img/Hammer4.jpg';
+import Hammer5 from './img/Hammer5.jpg';
+import Hammer6 from './img/Hammer6.jpg';
+import Hammer7 from './img/Hammer7.jpg';
+import Hammer8 from './img/Hammer8.jpg';
+import Wig1 from './img/Wig1.jpg';
+import Wig2 from './img/Wig2.jpg';
+import Wig3 from './img/Wig3.jpg';
+import Wig4 from './img/Wig4.jpg';
+import Wig5 from './img/Wig5.jpg';
+import MoanaCostume1 from './img/MoanaCostume1.jpg';
+import MoanaCostume2 from './img/MoanaCostume2.jpg';
+import Bandeau from './img/Bandeau.jpg';
+import CropTop1 from './img/CropTop1.jpg';
+import CropTop2 from './img/CropTop2.jpg';
+import GrassSkirt1 from './img/GrassSkirt1.jpg';
+import GrassSkirt2 from './img/GrassSkirt2.jpg';
+import GrassSkirt3 from './img/GrassSkirt3.jpg';
+import GrassSkirt4 from './img/GrassSkirt4.jpg';
+import TableRunner1 from './img/TableRunner1.jpg';
+import Sarong1 from './img/Sarong1.jpg';
+import Sarong2 from './img/Sarong2.jpg';
+import Sarong3 from './img/Sarong3.jpg';
+import Sarong4 from './img/Sarong4.jpg';
+import GrassSkirt5 from './img/GrassSkirt5.jpg';
+import Sandals1 from './img/Sandals1.jpg';
+import Sandals2 from './img/Sandals2.jpg';
+import Sandals3 from './img/Sandals3.jpg';
+import Necklace1 from './img/Necklace1.jpg';
+import Necklace2 from './img/Necklace2.jpg';
+import Necklace3 from './img/Necklace3.jpg';
+import Necklace4 from './img/Necklace4.jpg';
+import Necklace5 from './img/Necklace5.jpg';
+import Necklace6 from './img/Necklace6.jpg';
+import Oar1 from './img/Oar1.jpg';
+import Oar2 from './img/Oar2.jpg';
+import Oar3 from './img/Oar3.jpg';
+import Oar4 from './img/Oar4.jpg';
 
 let items = [
   {
     itemName: 'Thor Basic Mask',
     description: 'When the universe faces injustice, Thor channels the power of lightning and gets ready to battle.',
-    size: 'S',
-    imageUrl: 'ThorHelm1.png',
+    size: ThorHelm1,
+    imageUrl: './img/ThorHelm1.jpg',
     price: 28.98,
     bodySection: 'head',
     characterName: 'Thor',
@@ -18,8 +93,8 @@ let items = [
   {
     itemName: 'Child Thor Helmet',
     description: 'Available Sizes: One size fits most Kids',
-    size: 'S',
-    imageUrl: 'ThorHelm2.png',
+    size: ThorHelm2,
+    imageUrl: './img/ThorHelm2.jpg',
     price: 15.99,
     bodySection: 'head',
     characterName: 'Thor',
@@ -28,8 +103,8 @@ let items = [
   {
     itemName: 'Frightening Mask of Thor',
     description: 'Mask Seller costume mask special designed for 2017 halloween day.',
-    size: 'L',
-    imageUrl: 'ThorHelm3.png',
+    size: ThorHelm3,
+    imageUrl: './img/ThorHelm3.jpg',
     price: 14.99,
     bodySection: 'head',
     characterName: 'Thor',
@@ -38,8 +113,8 @@ let items = [
   {
     itemName: 'Thor Headpiece',
     description: 'You can\'t be part of the SHIELD team or play the part of the mighty God of Thunder without this!',
-    size: 'L',
-    imageUrl: 'ThorHelm4.png',
+    size: ThorHelm4,
+    imageUrl: './img/ThorHelm4.jpg',
     price: 24.98,
     bodySection: 'head',
     characterName: 'Thor',
@@ -48,8 +123,8 @@ let items = [
   {
     itemName: 'Thor Helmet Mask',
     description: '',
-    size: 'M',
-    imageUrl: 'ThorHelm5.jpg',
+    size: ThorHelm5,
+    imageUrl: './img/ThorHelm5.jpg',
     price: 18.1,
     bodySection: 'head',
     characterName: 'Thor',
@@ -58,8 +133,8 @@ let items = [
   {
     itemName: 'Thor Peruvian Winter Hat',
     description: 'For a casual day in Asgard, our Thor Peruvian Hat is the way to go!',
-    size: 'XL',
-    imageUrl: 'ThorHat.jpg',
+    size: ThorHat,
+    imageUrl: './img/ThorHat.jpg',
     price: 24.95,
     bodySection: 'head',
     characterName: 'Thor',
@@ -68,8 +143,8 @@ let items = [
   {
     itemName: 'Thor Kids Costume Helmet',
     description: 'Includes: Helmet Excludes: Anything Else',
-    size: 'S',
-    imageUrl: 'ThorHelm6.jpg',
+    size: ThorHelm6,
+    imageUrl: './img/ThorHelm6.jpg',
     price: 24.69,
     bodySection: 'head',
     characterName: 'Thor',
@@ -78,8 +153,8 @@ let items = [
   {
     itemName: 'Thor Odinson Helmet Gray',
     description: '',
-    size: 'XL',
-    imageUrl: 'ThorHelm7.jpg',
+    size: ThorHelm7,
+    imageUrl: './img/ThorHelm7.jpg',
     price: 182,
     bodySection: 'head',
     characterName: 'Thor',
@@ -88,8 +163,8 @@ let items = [
   {
     itemName: 'Viking Helmet',
     description: 'Add this hat as the final piece to your costume or as an playful accessory.',
-    size: 'M',
-    imageUrl: 'ThorHelm8.jpg',
+    size: ThorHelm8,
+    imageUrl: './img/ThorHelm8.jpg',
     price: 6.99,
     bodySection: 'head',
     characterName: 'Thor',
@@ -98,8 +173,8 @@ let items = [
   {
     itemName: 'Rubie\'s Costume Adult Thor Wig',
     description: 'Rubies takes seriously the mission to make dressing up fun.',
-    size: 'XL',
-    imageUrl: 'ThorWig1.jpg',
+    size: ThorWig1,
+    imageUrl: './img/ThorWig1.jpg',
     price: 12.73,
     bodySection: 'head',
     characterName: 'Thor',
@@ -108,8 +183,8 @@ let items = [
   {
     itemName: 'Avengers Cosplay Thor Wig',
     description: 'The item is easy to wash and care just using a little mild shampoo in cold water.',
-    size: 'L',
-    imageUrl: 'ThorWig2.jpg',
+    size: ThorWig2,
+    imageUrl: './img/ThorWig2.jpg',
     price: 16.59,
     bodySection: 'head',
     characterName: 'Thor',
@@ -118,8 +193,8 @@ let items = [
   {
     itemName: 'Armor Venue - Leather Armor',
     description: 'Made Up of Several Riveted Leather Squares',
-    size: 'XL',
-    imageUrl: 'VikingArmor1.jpg',
+    size: VikingArmor1,
+    imageUrl: './img/VikingArmor1.jpg',
     price: 110,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -128,8 +203,8 @@ let items = [
   {
     itemName: 'Viking Leather Armor, Black',
     description: 'Fits up to a 52 inch waist/abdomen.',
-    size: 'XL',
-    imageUrl: 'VikingArmor2.jpg',
+    size: VikingArmor2,
+    imageUrl: './img/VikingArmor2.jpg',
     price: 120,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -138,8 +213,8 @@ let items = [
   {
     itemName: 'Thor 3 Ragnarok Costume',
     description: 'Cosdaddy costumes are all tailored made according to Amazon US size.',
-    size: 'XL',
-    imageUrl: 'ThorCostumeFull.jpg',
+    size: ThorCostumeFull,
+    imageUrl: './img/ThorCostumeFull.jpg',
     price: 199.99,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -148,8 +223,8 @@ let items = [
   {
     itemName: 'Amscan Superhero Cape',
     description: 'Red cape measures 30", one size fits all.',
-    size: 'M',
-    imageUrl: 'Cape1.jpg',
+    size: Cape1,
+    imageUrl: './img/Cape1.jpg',
     price: 10.41,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -158,8 +233,8 @@ let items = [
   {
     itemName: 'SeasonsTrading 39" Red Cape',
     description: 'It\'s suitable for many costume ideas, such as superhero, devil, phantom, vampire, etc.',
-    size: 'L',
-    imageUrl: 'Cape2.jpg',
+    size: Cape2,
+    imageUrl: './img/Cape2.jpg',
     price: 7.88,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -168,8 +243,8 @@ let items = [
   {
     itemName: 'Adult Superhero Cape',
     description: 'Being an adult doesn’t mean you have to act like an adult.',
-    size: 'L',
-    imageUrl: 'Cape3.jpg',
+    size: Cape3,
+    imageUrl: './img/Cape3.jpg',
     price: 10.95,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -178,8 +253,8 @@ let items = [
   {
     itemName: 'Ghoulish Pauldron',
     description: '1 Piece Latex Shoulder Pauldron Armor',
-    size: 'L',
-    imageUrl: 'Pauldron.png',
+    size: Pauldron,
+    imageUrl: './img/Pauldron.jpg',
     price: 39.95,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -188,8 +263,8 @@ let items = [
   {
     itemName: 'Paintball Airsoft Chest Protector, Black',
     description: 'Full chest and back protection with high quality material and high density padded foam',
-    size: 'L',
-    imageUrl: 'AirsoftArmor.jpg',
+    size: AirsoftArmor,
+    imageUrl: './img/AirsoftArmor.jpg',
     price: 22.99,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -198,8 +273,8 @@ let items = [
   {
     itemName: 'Medieval Muscle Chest Armor',
     description: 'The muscle cuirass was a common style of armor worn from VII BC to V AD by Greek and Roman officers.',
-    size: 'L',
-    imageUrl: 'MuscleArmor.jpg',
+    size: MuscleArmor,
+    imageUrl: './img/MuscleArmor.jpg',
     price: 63.99,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -208,8 +283,8 @@ let items = [
   {
     itemName: 'Metallic V-Neck Long Sleeve Shirt',
     description: 'If you\'re looking for fashion t shirts , look no further!',
-    size: 'M',
-    imageUrl: 'SilverShirt.jpg',
+    size: SilverShirt,
+    imageUrl: './img/SilverShirt.jpg',
     price: 19.99,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -218,8 +293,8 @@ let items = [
   {
     itemName: 'Shanliu Compression Sportwear',
     description: 'Polyester fabric with high elasticity and resilience',
-    size: 'XL',
-    imageUrl: 'CompressionShirt.jpg',
+    size: CompressionShirt,
+    imageUrl: './img/CompressionShirt.jpg',
     price: 12.99,
     bodySection: 'bodyWear',
     characterName: 'Thor',
@@ -228,8 +303,8 @@ let items = [
   {
     itemName: 'Thor S6 Range Pants',
     description: '',
-    size: 'L',
-    imageUrl: 'MotorcyclePants1.png',
+    size: MotorcyclePants1,
+    imageUrl: './img/MotorcyclePants1.jpg',
     price: 99.99,
     bodySection: 'legWear',
     characterName: 'Thor',
@@ -238,8 +313,8 @@ let items = [
   {
     itemName: 'Russell Men\'s Sweatpants',
     description: '50% Cotton/50% Polyester',
-    size: 'XL',
-    imageUrl: 'Sweatpants1.jpg',
+    size: Sweatpants1,
+    imageUrl: './img/Sweatpants1.jpg',
     price: 19.99,
     bodySection: 'legWear',
     characterName: 'Thor',
@@ -248,8 +323,8 @@ let items = [
   {
     itemName: 'PUMA Core Soccer Pants',
     description: 'Elastic-waist soccer pant featuring tapered legs with contrast piping and insets',
-    size: 'S',
-    imageUrl: 'SoccerPants1.jpg',
+    size: SoccerPants1,
+    imageUrl: './img/SoccerPants1.jpg',
     price: 20,
     bodySection: 'legWear',
     characterName: 'Thor',
@@ -258,8 +333,8 @@ let items = [
   {
     itemName: 'Galaxy Men\'s Soccer Pants',
     description: 'Don\'t compromise with quality.',
-    size: 'L',
-    imageUrl: 'SoccerPants2.jpg',
+    size: SoccerPants2,
+    imageUrl: './img/SoccerPants2.jpg',
     price: 19.99,
     bodySection: 'legWear',
     characterName: 'Thor',
@@ -268,8 +343,8 @@ let items = [
   {
     itemName: 'Ibuyfun Skinny Track Pants',
     description: 'soccer training pants',
-    size: 'XL',
-    imageUrl: 'SoccerPants3.jpg',
+    size: SoccerPants3,
+    imageUrl: './img/SoccerPants3.jpg',
     price: 20.04,
     bodySection: 'legWear',
     characterName: 'Thor',
@@ -278,8 +353,8 @@ let items = [
   {
     itemName: 'GI Joe Duke Boot Covers',
     description: 'Boots not included',
-    size: 'S',
-    imageUrl: 'BootCovers1.jpg',
+    size: BootCovers1,
+    imageUrl: './img/BootCovers1.jpg',
     price: 7.97,
     bodySection: 'footWear',
     characterName: 'Thor',
@@ -288,8 +363,8 @@ let items = [
   {
     itemName: 'Men\'s Renaissance Boots',
     description: '',
-    size: 'L',
-    imageUrl: 'FancyBoots1.jpg',
+    size: FancyBoots1,
+    imageUrl: './img/FancyBoots1.jpg',
     price: 54.98,
     bodySection: 'footWear',
     characterName: 'Thor',
@@ -298,8 +373,8 @@ let items = [
   {
     itemName: 'Ellie Shoes Black Boots',
     description: '',
-    size: 'M',
-    imageUrl: 'FancyBoots2.jpg',
+    size: FancyBoots2,
+    imageUrl: './img/FancyBoots2.jpg',
     price: 33.89,
     bodySection: 'footWear',
     characterName: 'Thor',
@@ -308,8 +383,8 @@ let items = [
   {
     itemName: 'Shoe Artists Combat Jungle Boot',
     description: 'Classic combat jungle Boots',
-    size: 'XL',
-    imageUrl: 'JungleBoots1.jpg',
+    size: JungleBoots1,
+    imageUrl: './img/JungleBoots1.jpg',
     price: 34.88,
     bodySection: 'footWear',
     characterName: 'Thor',
@@ -318,8 +393,8 @@ let items = [
   {
     itemName: 'Rothco GI Jungle Boot',
     description: 'Quality tested and ensured for maximum durability',
-    size: 'M',
-    imageUrl: 'JungleBoots2.jpg',
+    size: JungleBoots2,
+    imageUrl: './img/JungleBoots2.jpg',
     price: 32.99,
     bodySection: 'footWear',
     characterName: 'Thor',
@@ -328,8 +403,8 @@ let items = [
   {
     itemName: 'Avengers 2 Child Thor Gauntlets',
     description: 'Officially licensed Avengers 2 costume accessory',
-    size: 'S',
-    imageUrl: 'Gauntlets1.jpg',
+    size: Gauntlets1,
+    imageUrl: './img/Gauntlets1.jpg',
     price: 5.99,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -338,8 +413,8 @@ let items = [
   {
     itemName: 'Thor Movie Cosplay Accessories',
     description: 'Perfect Costume Accessories For Thor.',
-    size: 'L',
-    imageUrl: 'Gauntlets2.jpg',
+    size: Gauntlets2,
+    imageUrl: './img/Gauntlets2.jpg',
     price: 55,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -348,8 +423,8 @@ let items = [
   {
     itemName: 'Avengers Assemble Thor Molded Hammer',
     description: 'Officially licensed Marvel Universe merchandise',
-    size: 'N/A',
-    imageUrl: 'Hammer1.jpg',
+    size: Hammer1,
+    imageUrl: './img/Hammer1.jpg',
     price: 10.69,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -358,8 +433,8 @@ let items = [
   {
     itemName: 'Thor Ragnarok Hammer',
     description: 'not designed for battle or as a toy',
-    size: 'N/A',
-    imageUrl: 'Hammer2.jpg',
+    size: Hammer2,
+    imageUrl: './img/Hammer2.jpg',
     price: 10.99,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -368,8 +443,8 @@ let items = [
   {
     itemName: 'Marvel Avengers Thor Hammer',
     description: 'Awesome Thor Battle Hammer',
-    size: 'N/A',
-    imageUrl: 'Hammer3.jpg',
+    size: Hammer3,
+    imageUrl: './img/Hammer3.jpg',
     price: 16.85,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -378,8 +453,8 @@ let items = [
   {
     itemName: 'Constructive Playthings Thor\'s Hammer',
     description: '20 1/2 in. Long',
-    size: 'N/A',
-    imageUrl: 'Hammer4.jpg',
+    size: Hammer4,
+    imageUrl: './img/Hammer4.jpg',
     price: 10.28,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -388,8 +463,8 @@ let items = [
   {
     itemName: 'Thor Rumble Strike Hammer',
     description: 'Strike a surface for spring-activated rumbling sound effects!',
-    size: 'N/A',
-    imageUrl: 'Hammer5.jpg',
+    size: Hammer5,
+    imageUrl: './img/Hammer5.jpg',
     price: 19.99,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -398,8 +473,8 @@ let items = [
   {
     itemName: 'Marvel Legends Series Mjolnir',
     description: '1:1 full scale 19.75-inch premium role play hammer',
-    size: 'N/A',
-    imageUrl: 'Hammer6.jpg',
+    size: Hammer6,
+    imageUrl: './img/Hammer6.jpg',
     price: 99.99,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -408,8 +483,8 @@ let items = [
   {
     itemName: 'Dark World Battle Hammer',
     description: 'Foam hammer looks like the mighty hammer of Thor',
-    size: 'N/A',
-    imageUrl: 'Hammer7.jpg',
+    size: Hammer7,
+    imageUrl: './img/Hammer7.jpg',
     price: 15.99,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -418,8 +493,8 @@ let items = [
   {
     itemName: 'Thor Lightning Strike Hammer',
     description: 'Motion-activated Lightning Strike Hammer',
-    size: 'N/A',
-    imageUrl: 'Hammer8.jpg',
+    size: Hammer8,
+    imageUrl: './img/Hammer8.jpg',
     price: 29.99,
     bodySection: 'accessories',
     characterName: 'Thor',
@@ -428,8 +503,8 @@ let items = [
   {
     itemName: 'Disney Moana Wig with Flower',
     description: 'Moana\'s iconic long brown flowing hair',
-    size: 'S',
-    imageUrl: 'Wig1.jpg',
+    size: Wig1,
+    imageUrl: './img/Wig1.jpg',
     price: 13.39,
     bodySection: 'head',
     characterName: 'Moana',
@@ -438,8 +513,8 @@ let items = [
   {
     itemName: 'OneDor Long Hair Wig',
     description: 'OneDor wigs are made of high quality synthetic fibers',
-    size: 'L',
-    imageUrl: 'Wig2.jpg',
+    size: Wig2,
+    imageUrl: './img/Wig2.jpg',
     price: 24.99,
     bodySection: 'head',
     characterName: 'Moana',
@@ -448,8 +523,8 @@ let items = [
   {
     itemName: 'Long Brown Cosplay Wig',
     description: 'The wig in the picture is styled by our hairstyle designer.',
-    size: 'L',
-    imageUrl: 'Wig3.jpg',
+    size: Wig3,
+    imageUrl: './img/Wig3.jpg',
     price: 25,
     bodySection: 'head',
     characterName: 'Moana',
@@ -458,8 +533,8 @@ let items = [
   {
     itemName: 'Topcosplay Wig with Flower',
     description: '100% Synthetic',
-    size: 'M',
-    imageUrl: 'Wig4.jpg',
+    size: Wig4,
+    imageUrl: './img/Wig4.jpg',
     price: 23.99,
     bodySection: 'head',
     characterName: 'Moana',
@@ -468,8 +543,8 @@ let items = [
   {
     itemName: 'Moana Costume Wig for Kids',
     description: 'Genuine, Original, Authentic Disney Store',
-    size: 'S',
-    imageUrl: 'Wig5.jpg',
+    size: Wig5,
+    imageUrl: './img/Wig5.jpg',
     price: 33.93,
     bodySection: 'head',
     characterName: 'Moana',
@@ -478,8 +553,8 @@ let items = [
   {
     itemName: 'Ainiel Cosplay Skirt Set',
     description: 'Clothing is made of Fabric, soft and comfortable',
-    size: 'M',
-    imageUrl: 'MoanaCostume1.jpg',
+    size: MoanaCostume1,
+    imageUrl: './img/MoanaCostume1.jpg',
     price: 39.99,
     bodySection: 'body',
     characterName: 'Moana',
@@ -488,8 +563,8 @@ let items = [
   {
     itemName: 'Quesera Women\'s Moana Costume',
     description: 'The outfit has both adult size and children size',
-    size: 'L',
-    imageUrl: 'MoanaCostume2.jpg',
+    size: MoanaCostume2,
+    imageUrl: './img/MoanaCostume2.jpg',
     price: 32.99,
     bodySection: 'body',
     characterName: 'Moana',
@@ -498,8 +573,8 @@ let items = [
   {
     itemName: 'Women\'s Strapless Bandeau',
     description: 'Strapless elasticated bandeau style.',
-    size: 'M',
-    imageUrl: 'Bandeau.jpg',
+    size: Bandeau,
+    imageUrl: './img/Bandeau.jpg',
     price: 5.97,
     bodySection: 'body',
     characterName: 'Moana',
@@ -508,8 +583,8 @@ let items = [
   {
     itemName: 'Strapless Ruffled Crop Top',
     description: 'off the shoulder croptop with elastic ruffled detail',
-    size: 'M',
-    imageUrl: 'CropTop1.jpg',
+    size: CropTop1,
+    imageUrl: './img/CropTop1.jpg',
     price: 5.99,
     bodySection: 'body',
     characterName: 'Moana',
@@ -518,8 +593,8 @@ let items = [
   {
     itemName: 'Banjo Pom Crop Top',
     description: 'Made in the USA and Imported',
-    size: 'S',
-    imageUrl: 'CropTop2.jpg',
+    size: CropTop2,
+    imageUrl: './img/CropTop2.jpg',
     price: 49.45,
     bodySection: 'body',
     characterName: 'Moana',
@@ -528,8 +603,8 @@ let items = [
   {
     itemName: 'Beistle Adult Raffia Hula Skirt',
     description: 'This item is a great value!',
-    size: 'L',
-    imageUrl: 'GrassSkirt1.jpg',
+    size: GrassSkirt1,
+    imageUrl: './img/GrassSkirt1.jpg',
     price: 8.99,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -538,8 +613,8 @@ let items = [
   {
     itemName: 'Women\'s Natural Grass Skirt',
     description: 'Hula through the night in this Natural Grass Hula Skirt',
-    size: 'M',
-    imageUrl: 'GrassSkirt2.jpg',
+    size: GrassSkirt2,
+    imageUrl: './img/GrassSkirt2.jpg',
     price: 5.99,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -548,8 +623,8 @@ let items = [
   {
     itemName: 'Beistle Adult Mini Hula Skirt',
     description: 'This item is a great value!',
-    size: 'S',
-    imageUrl: 'GrassSkirt3.jpg',
+    size: GrassSkirt3,
+    imageUrl: './img/GrassSkirt3.jpg',
     price: 10.89,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -558,8 +633,8 @@ let items = [
   {
     itemName: 'RINCO Luau Grass Table Skirt',
     description: 'Plastic grass table skirt with flowers around top',
-    size: 'XL',
-    imageUrl: 'GrassSkirt4.jpg',
+    size: GrassSkirt4,
+    imageUrl: './img/GrassSkirt4.jpg',
     price: 11.5,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -568,8 +643,8 @@ let items = [
   {
     itemName: 'Handmade Crochet Table Runner',
     description: 'Vintage and Elegant',
-    size: 'N/A',
-    imageUrl: 'TableRunner1.jpg',
+    size: TableRunner1,
+    imageUrl: './img/TableRunner1.jpg',
     price: 11.99,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -578,8 +653,8 @@ let items = [
   {
     itemName: '1 World Sarong White',
     description: 'Silky Smooth Lightweight Rayon',
-    size: 'M',
-    imageUrl: 'Sarong1.jpg',
+    size: Sarong1,
+    imageUrl: './img/Sarong1.jpg',
     price: 12.74,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -588,8 +663,8 @@ let items = [
   {
     itemName: 'Timistar Womens Beach Sarong',
     description: 'One size fits most girls&women',
-    size: 'L',
-    imageUrl: 'Sarong2.jpg',
+    size: Sarong2,
+    imageUrl: './img/Sarong2.jpg',
     price: 7.89,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -598,8 +673,8 @@ let items = [
   {
     itemName: 'Shu-Shi Women\'s Mini Sarong',
     description: 'Flirty Fashionable Fun',
-    size: 'S',
-    imageUrl: 'Sarong3.jpg',
+    size: Sarong3,
+    imageUrl: './img/Sarong3.jpg',
     price: 11.99,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -608,8 +683,8 @@ let items = [
   {
     itemName: 'Ingear Swimwear Long Batik Sarong',
     description: 'FREE COCONUT SHELL!!',
-    size: 'XL',
-    imageUrl: 'Sarong4.jpg',
+    size: Sarong4,
+    imageUrl: './img/Sarong4.jpg',
     price: 15.99,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -618,8 +693,8 @@ let items = [
   {
     itemName: 'Rhode Island Novelty Hula Skirt',
     description: 'Great craftmanship.',
-    size: 'L',
-    imageUrl: 'GrassSkirt5.jpg',
+    size: GrassSkirt5,
+    imageUrl: './img/GrassSkirt5.jpg',
     price: 8.99,
     bodySection: 'legs',
     characterName: 'Moana',
@@ -628,8 +703,8 @@ let items = [
   {
     itemName: 'Billabong Women\'s Flat Sandal',
     description: 'Flat thong sandal featuring braided straps',
-    size: 'M',
-    imageUrl: 'Sandals1.jpg',
+    size: Sandals1,
+    imageUrl: './img/Sandals1.jpg',
     price: 19.99,
     bodySection: 'feet',
     characterName: 'Moana',
@@ -638,8 +713,8 @@ let items = [
   {
     itemName: 'Tenworld Women\'s Flat Sandals',
     description: 'Perfect for your casual everyday and party look.',
-    size: 'L',
-    imageUrl: 'Sandals2.jpg',
+    size: Sandals2,
+    imageUrl: './img/Sandals2.jpg',
     price: 8.98,
     bodySection: 'feet',
     characterName: 'Moana',
@@ -648,8 +723,8 @@ let items = [
   {
     itemName: 'Moana Costume Shoes for Kids',
     description: 'Sandals with cork footbed',
-    size: 'S',
-    imageUrl: 'Sandals3.jpg',
+    size: Sandals3,
+    imageUrl: './img/Sandals3.jpg',
     price: 37.25,
     bodySection: 'feet',
     characterName: 'Moana',
@@ -658,8 +733,8 @@ let items = [
   {
     itemName: 'Disney Princess Moana Child Necklace',
     description: 'Officially licensed product',
-    size: 'S',
-    imageUrl: 'Necklace1.jpg',
+    size: Necklace1,
+    imageUrl: './img/Necklace1.jpg',
     price: 5.32,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -668,8 +743,8 @@ let items = [
   {
     itemName: 'Necklace 2 Set for Kids',
     description: 'Come with two necklaces and gift box',
-    size: 'S',
-    imageUrl: 'Necklace2.jpg',
+    size: Necklace2,
+    imageUrl: './img/Necklace2.jpg',
     price: 8.99,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -678,8 +753,8 @@ let items = [
   {
     itemName: 'Moana Seashell Necklace',
     description: 'DISCOVER the "Heart of Te Fiti!',
-    size: 'M',
-    imageUrl: 'Necklace3.jpg',
+    size: Necklace3,
+    imageUrl: './img/Necklace3.jpg',
     price: 12.95,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -688,8 +763,8 @@ let items = [
   {
     itemName: 'Paris Lover Moana Princess Necklace',
     description: 'AMAZING',
-    size: 'M',
-    imageUrl: 'Necklace4.jpg',
+    size: Necklace4,
+    imageUrl: './img/Necklace4.jpg',
     price: 8.99,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -698,8 +773,8 @@ let items = [
   {
     itemName: 'Disney Moana Singing Necklace',
     description: 'Genuine, Original, Authentic Disney Store',
-    size: 'S',
-    imageUrl: 'Necklace5.jpg',
+    size: Necklace5,
+    imageUrl: './img/Necklace5.jpg',
     price: 14.95,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -708,8 +783,8 @@ let items = [
   {
     itemName: 'Blue Sea Shell Glass Pendant',
     description: 'Packaging: Black Velvet Pouch',
-    size: 'L',
-    imageUrl: 'Necklace6.jpg',
+    size: Necklace6,
+    imageUrl: './img/Necklace6.jpg',
     price: 24.98,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -718,8 +793,8 @@ let items = [
   {
     itemName: 'Attwood Wood Canoe Paddle',
     description: 'Compact for easy storage.',
-    size: 'N/A',
-    imageUrl: 'Oar1.jpg',
+    size: Oar1,
+    imageUrl: './img/Oar1.jpg',
     price: 14.13,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -728,8 +803,8 @@ let items = [
   {
     itemName: 'Carlisle Ausable Canoe Paddle',
     description: 'Blade Material: Basswood',
-    size: 'N/A',
-    imageUrl: 'Oar2.jpg',
+    size: Oar2,
+    imageUrl: './img/Oar2.jpg',
     price: 24.99,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -738,8 +813,8 @@ let items = [
   {
     itemName: 'Crooked Creek C10302 Wood Paddle',
     description: 'Lightweight but built for performance',
-    size: 'N/A',
-    imageUrl: 'Oar3.jpg',
+    size: Oar3,
+    imageUrl: './img/Oar3.jpg',
     price: 18.82,
     bodySection: 'accessories',
     characterName: 'Moana',
@@ -748,8 +823,8 @@ let items = [
   {
     itemName: 'Hampton Nautical Wooden Oar',
     description: 'Solid wooden oar - handcrafted by our master artisans',
-    size: 'N/A',
-    imageUrl: 'Oar4.jpg',
+    size: Oar4,
+    imageUrl: './img/Oar4.jpg',
     price: 31.15,
     bodySection: 'accessories',
     characterName: 'Moana',
