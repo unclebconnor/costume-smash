@@ -4,6 +4,12 @@ import Main from './Main';
 import Search from './Search';
 import './App.css';
 
+import manEllipse from './img/manEllipse.png';
+import manPants from './img/manPants.png';
+import manFeet from './img/manFeet.png';
+import manTorso from './img/manTorso.png';
+import manLogo from './img/Logo.png';
+
 class App extends Component {
 	constructor(props) {
 		super(props);
@@ -19,14 +25,15 @@ class App extends Component {
 				accessories: [{}],
 			}, 
 			userSelection: { //made default images dummy manequin
-				head: {yo: "this works"},
-				bodyWear: {},
-				legWear: {},
-				footWear: {},
-				accessories: {},
+				head: {size:manEllipse},
+				bodyWear: {size:manTorso},
+				legWear: {size:manPants},
+				footWear: {size:manFeet},
+				accessories: {size:manLogo},
 			}
 		}
 		this.updateSelectedCharacter=this.updateSelectedCharacter.bind(this);
+		this.updateUserSelection=this.updateUserSelection.bind(this);
 	}
 
 	//function list
@@ -80,6 +87,32 @@ class App extends Component {
 		});
 	}
 
+	updateUserSelection(e,item,bodySection){
+		console.log(e,item,bodySection)
+		var tempUserSelection = this.state.userSelection;
+		if(bodySection==="head"){
+			tempUserSelection.head=item;
+		} else if(bodySection==="bodyWear"){
+			tempUserSelection.bodyWear=item;
+		} else if(bodySection==="legWear"){
+			tempUserSelection.legWear=item;
+		} else if(bodySection==="footWear"){
+			tempUserSelection.footWear=item;
+		} else if(bodySection==="accessories"){
+			tempUserSelection.accessories=item;
+		}
+		this.setState({
+			userSelection: {
+				head: tempUserSelection.head,
+				bodyWear: tempUserSelection.bodyWear,
+				legWear: tempUserSelection.legWear,
+				footWear: tempUserSelection.footWear,
+				accessories: tempUserSelection.accessories,
+			}
+		})
+		
+	}
+
 	updateSelectedCharacter(e, selectedCharacter){
 		e.preventDefault();
 		this.setState({
@@ -124,7 +157,10 @@ class App extends Component {
   	  	  				<Sidebar userSelection={this.state.userSelection}/>
   	  	  			</div>
   	  	  			<div className="col-xs-9 mainSection">
-  	  	  				<Main charSelection={this.state.charSelection}/>
+  	  	  				<Main 
+  	  	  					charSelection={this.state.charSelection}
+  	  	  					updateUserSelection={this.updateUserSelection}
+  	  	  				/>
   	  	  			</div>
   	  	  		</div>
   	  	  	</div>
