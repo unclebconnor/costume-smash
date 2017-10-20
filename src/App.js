@@ -7,26 +7,9 @@ class App extends Component {
 	constructor(props) {
 		super(props);
 		this.state={
-			items:[{
-				itemName:"Thor's Helmet",
-				description: "This is a dope helmet",
-				size: "XL",
-				imageUrl: "img/thorsHelmet.jpg",
-				price: 14.99,
-				bodySection: "head",
-				characterName: "Thor",
-				amazonLink: "www.amazon.blah"
-			},{
-				itemName:"Thor's Armor",
-				description: "This is dope armor",
-				size: "XL",
-				imageUrl: "img/thorsArmor.jpg",
-				price: 19.99,
-				bodySection: "bodyWear",
-				characterName: "Thor",
-				amazonLink: "www.amazon.blah"
-			}],
+			items:[],
 			selectedCharacter: "",
+			searchTemp:"",
 			charSelection: {
 				head: [{}],
 				bodyWear: [{}],
@@ -46,14 +29,36 @@ class App extends Component {
 	}
 
 	//function list
-	//get props from index and set state
-	//handle character selection -> on change from search
-	//update character selection -> on submit from search
+	//####DONE#### get props from index and set state 
+	//####DONE#### handle character selection -> on change from search
+	//####DONE#### update character selection -> on submit from search
 	//update user selection -> pass to main as prop.  takes object from main w/updated keys.  
 	//clear user selection -> pass to sidebar as props
 
+	componentDidMount() {
+		this.setState({
+			items: this.props.items
+		})
+	}
+
+	handleSearchInput(e){
+		this.setState({
+			searchTemp: e.target.value
+		})
+	}
+
+	updateSelectedCharacter(e){
+		e.preventDefault();
+		this.setState({
+			selectedCharacter: this.state.searchTemp,
+			searchTemp:""
+		})
+	}
+
+	
 
   	render() {
+  		console.log("App.js State", this.state)
   	  	return (
   	  	  	<div className="fullWindow">
   	  	  		<header>HEADER</header>
@@ -67,12 +72,14 @@ class App extends Component {
   	  	  						className="form-control"
   	  	  						placeholder="Enter Character"
   	  	  						type="text"
+  	  	  						onChange={(e) => this.handleSearchInput(e)}
   	  	  						
   	  	  					/>
   	  	  					<span className="input-group-btn">
   	  	  						<button
   	  	  							className="btn btn-secondary"
   	  	  							type="button"
+  	  	  							onClick={(e) => this.updateSelectedCharacter(e)}
   	  	  							
   	  	  						>Submit</button>
   	  	  						</span>
