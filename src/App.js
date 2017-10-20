@@ -91,15 +91,15 @@ class App extends Component {
 		console.log(e,item,bodySection)
 		var tempUserSelection = this.state.userSelection;
 		if(bodySection==="head"){
-			tempUserSelection.head=item;
+			tempUserSelection.head.size=item.size;
 		} else if(bodySection==="bodyWear"){
-			tempUserSelection.bodyWear=item;
+			tempUserSelection.bodyWear.size=item.size;
 		} else if(bodySection==="legWear"){
-			tempUserSelection.legWear=item;
+			tempUserSelection.legWear.size=item.size;
 		} else if(bodySection==="footWear"){
-			tempUserSelection.footWear=item;
+			tempUserSelection.footWear.size=item.size;
 		} else if(bodySection==="accessories"){
-			tempUserSelection.accessories=item;
+			tempUserSelection.accessories.size=item.size;
 		}
 		this.setState({
 			userSelection: {
