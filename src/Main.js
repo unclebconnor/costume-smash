@@ -36,17 +36,16 @@ class Main extends Component {
   // return
 
   render() {
-    console.log("MAIN STATE", this.state.charSelection.head, this.state);
-    let head = this.state.charSelection.head;
+    console.log("MAIN STATE", this.state);
     return (
       <div className="mainWindow">
         <div>MAIN WINDOW</div>
           <div className="carouselRow">
           <OwlCarousel className="owl-theme headWear" loop margin={10}>
-            {head.map((item,index) => {
+            {this.state.charSelection.head.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"head")}/>
+                  <img src={item.size} onClick={(e) => this.props.updateUserSelection(e,item,"head")}/>
                 </div>
               )
             })}
@@ -54,10 +53,10 @@ class Main extends Component {
           </div>
           <div className="carouselRow">
           <OwlCarousel className="owl-theme headWear" loop margin={10}>
-            {head.map((item,index) => {
+            {this.state.charSelection.bodyWear.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"bodyWear")}/>
+                  <img src={item.size} onClick={(e) => this.props.updateUserSelection(e,item,"bodyWear")}/>
                 </div>
               )
             })}
@@ -65,10 +64,10 @@ class Main extends Component {
           </div>
           <div className="carouselRow">
           <OwlCarousel className="owl-theme headWear" loop margin={10}>
-            {head.map((item,index) => {
+            {this.state.charSelection.legWear.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"legWear")}/>
+                  <img src={item.size} onClick={(e) => this.props.updateUserSelection(e,item,"legWear")}/>
                 </div>
               )
             })}
@@ -76,10 +75,10 @@ class Main extends Component {
           </div>
           <div className="carouselRow">
           <OwlCarousel className="owl-theme headWear" loop margin={10}>
-            {head.map((item,index) => {
+            {this.state.charSelection.footWear.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"footWear")}/>
+                  <img src={item.size} onClick={(e) => this.props.updateUserSelection(e,item,"footWear")}/>
                 </div>
               )
             })}
@@ -87,10 +86,10 @@ class Main extends Component {
           </div>
           <div className="carouselRow">
           <OwlCarousel className="owl-theme headWear" loop margin={10}>
-            {head.map((item,index) => {
+            {this.state.charSelection.accessories.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
-                  <img src="{require({item.imageUrl})}" onClick={(e) => this.props.updateUserSelection(e,{item},"accessories")}/>
+                  <img src={item.size} onClick={(e) => this.props.updateUserSelection(e,item,"accessories")}/>
                 </div>
               )
             })}
