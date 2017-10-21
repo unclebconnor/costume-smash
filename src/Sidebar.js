@@ -42,25 +42,23 @@ class Sidebar extends Component {
 
   render() {
     console.log("SIDEBAR STATE",this.state)
-    console.log("SIDEBAR Head Image",this.state.userSelection.head)
 
    	return (
    	  	<div className="sideBarWindow">
-   	  		<div>SIDEBAR WINDOW</div>
    	  		<div className="mannequinBackground">
-            <div className="carouselRow">
+            <div className="carouselRow col-xs-12">
               <img className="img-responsive" src={this.state.userSelection.head.size} alt="" />
             </div>
-            <div className="carouselRow">
+            <div className="carouselRow col-xs-12">
               <img className="img-responsive" src={this.state.userSelection.bodyWear.size} alt="" />
             </div>
-            <div className="carouselRow">
+            <div className="carouselRow col-xs-12">
               <img className="img-responsive" src={this.state.userSelection.legWear.size} alt="" />
             </div>
-            <div className="carouselRow">
+            <div className="carouselRow col-xs-12">
               <img className="img-responsive" src={this.state.userSelection.footWear.size} alt="" />
             </div>
-            <div className="carouselRow">
+            <div className="carouselRow col-xs-12">
               <img className="img-responsive" src={this.state.userSelection.accessories.size} alt="" />
             </div>
           </div>

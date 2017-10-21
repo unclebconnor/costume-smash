@@ -3,6 +3,7 @@ import Sidebar from './Sidebar';
 import Main from './Main';
 import Search from './Search';
 import './App.css';
+import HeaderLogo from './img/headerLogo.png'
 
 import manEllipse from './img/manEllipse.png';
 import manPants from './img/manPants.png';
@@ -88,7 +89,7 @@ class App extends Component {
 	}
 
 	updateUserSelection(e,item,bodySection){
-		console.log(e,item,bodySection)
+
 		var tempUserSelection = this.state.userSelection;
 		if(bodySection==="head"){
 			tempUserSelection.head.size=item.size;
@@ -125,11 +126,11 @@ class App extends Component {
 		e.preventDefault();
 		this.setState({
 			userSelection: { //make default images dummy manequin
-				head: {},
-				bodyWear: {},
-				legWear: {},
-				footWear: {},
-				accessories: {}
+				head: {size:manEllipse},
+				bodyWear: {size:manTorso},
+				legWear: {size:manPants},
+				footWear: {size:manFeet},
+				accessories: {size:manLogo},
 			}
 		})
 	}	
@@ -138,23 +139,26 @@ class App extends Component {
   		console.log("APP STATE", this.state)
   	  	return (
   	  	  	<div className="fullWindow">
-  	  	  		<header>HEADER</header>
+  	  	  		<header><img className="logo" src={HeaderLogo}/></header>
   	  	  		<div className="row navWrapper">
-  	  	  			<nav className="col-xs-9">
-  	  	  				<div>NAV BAR</div>
-  	  	  			</nav>
-  	  	  		<Search updateSelectedCharacter={this.updateSelectedCharacter}/>	
-  	  	  		</div>
+                    <div className="navButtons col-xs-9">
+                        <div>Browse</div> <div>How it Works</div> <div>Submit a Costume</div>
+                    </div>
+                <Search updateSelectedCharacter={this.updateSelectedCharacter}/>
+                </div>
+                <div className="row sub-head">
+                    <div className="col-xs-3 text-left">Costume Search</div>
+                    <div className="col-xs-6"></div>
+                    <div className="col-xs-3 text-right">46 results for Thor</div>
+                </div>
   	  	  		<div className="row">
   	  	  			<div className="col-xs-3 sidebarSection">
-  	  	  				<div>
-  	  	  					<button 
+  	  	  				<Sidebar userSelection={this.state.userSelection}/>
+  	  	  				<button 
   	  	  						type="button"
   	  	  						className="btn btn-secondary"
   	  	  						onClick={(e) => this.clearUserSelection(e)}
   	  	  						>Clear Selection</button>
-  	  	  				</div>
-  	  	  				<Sidebar userSelection={this.state.userSelection}/>
   	  	  			</div>
   	  	  			<div className="col-xs-9 mainSection">
   	  	  				<Main 

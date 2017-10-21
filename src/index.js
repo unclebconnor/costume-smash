@@ -556,7 +556,7 @@ let items = [
     size: MoanaCostume1,
     imageUrl: './img/MoanaCostume1.jpg',
     price: 39.99,
-    bodySection: 'body',
+    bodySection: 'bodyWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Ainiel-Halloween-Cosplay-Costume-Necklace/dp/B06XRW9K9H/ref=sr_1_9?ie=UTF8&qid=1508471647&sr=8-9&keywords=moana+costume'
   },
@@ -566,7 +566,7 @@ let items = [
     size: MoanaCostume2,
     imageUrl: './img/MoanaCostume2.jpg',
     price: 32.99,
-    bodySection: 'body',
+    bodySection: 'bodyWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Quesera-Womens-Costume-Patterned-Tassel/dp/B073F6YTYK/ref=sr_1_32?ie=UTF8&qid=1508471814&sr=8-32&keywords=moana+costume'
   },
@@ -576,7 +576,7 @@ let items = [
     size: Bandeau,
     imageUrl: './img/Bandeau.jpg',
     price: 5.97,
-    bodySection: 'body',
+    bodySection: 'bodyWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/PurpleHanger-Womens-Sleeveless-Strapless-Bandeau/dp/B00GZNMB0S/ref=sr_1_5?ie=UTF8&qid=1508471891&sr=8-5&keywords=orange+tube+top+wrap'
   },
@@ -586,7 +586,7 @@ let items = [
     size: CropTop1,
     imageUrl: './img/CropTop1.jpg',
     price: 5.99,
-    bodySection: 'body',
+    bodySection: 'bodyWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Womens-Strapless-Shoulder-Ruffled-T-shirt/dp/B06Y3NG875/ref=sr_1_15?ie=UTF8&qid=1508472179&sr=8-15&keywords=red+ruffle+top'
   },
@@ -596,7 +596,7 @@ let items = [
     size: CropTop2,
     imageUrl: './img/CropTop2.jpg',
     price: 49.45,
-    bodySection: 'body',
+    bodySection: 'bodyWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Show-Me-Your-Mumu-Bonfire/dp/B01F02EOG8/ref=sr_1_4?s=apparel&ie=UTF8&qid=1508472370&sr=1-4&nodeID=1040660&psd=1&keywords=red+crop+top&refinements=p_n_feature_eighteen_browse-bin%3A14630392011'
   },
@@ -606,7 +606,7 @@ let items = [
     size: GrassSkirt1,
     imageUrl: './img/GrassSkirt1.jpg',
     price: 8.99,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Beistle-Raffia-32-Inch-30-Inch-Length/dp/B0051BVVHY/ref=sr_1_5?ie=UTF8&qid=1508472698&sr=8-5&keywords=grass+skirt'
   },
@@ -616,7 +616,7 @@ let items = [
     size: GrassSkirt2,
     imageUrl: './img/GrassSkirt2.jpg',
     price: 5.99,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Womens-Natural-Grass-Skirt-Beige/dp/B003JMGRKI/ref=sr_1_7?ie=UTF8&qid=1508472698&sr=8-7&keywords=grass+skirt'
   },
@@ -626,7 +626,7 @@ let items = [
     size: GrassSkirt3,
     imageUrl: './img/GrassSkirt3.jpg',
     price: 10.89,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Beistle-Adult-36-Inch-16-Inch-Length/dp/B00AY1LRIY/ref=sr_1_13?ie=UTF8&qid=1508472698&sr=8-13&keywords=grass+skirt'
   },
@@ -636,7 +636,7 @@ let items = [
     size: GrassSkirt4,
     imageUrl: './img/GrassSkirt4.jpg',
     price: 11.5,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/RINCO-Natural-Decoration-Tropical-Flowers/dp/B00IFD2PYS/ref=sr_1_28?ie=UTF8&qid=1508472698&sr=8-28&keywords=grass+skirt'
   },
@@ -646,7 +646,7 @@ let items = [
     size: TableRunner1,
     imageUrl: './img/TableRunner1.jpg',
     price: 11.99,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/kilofly-Handmade-Crochet-Cotton-Tablecloth/dp/B01K6YH4TO/ref=sr_1_14?s=home-garden&ie=UTF8&qid=1508472877&sr=1-14&keywords=tablecloth+white+crochet&refinements=p_n_srvg_2947266011%3A2972996011'
   },
@@ -656,7 +656,7 @@ let items = [
     size: Sarong1,
     imageUrl: './img/Sarong1.jpg',
     price: 12.74,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/World-Sarongs-Swimsuit-Cover-Up-Turquoise/dp/B000C1ZYXA/ref=sr_1_38?s=apparel&ie=UTF8&qid=1508472930&sr=1-38&nodeID=7141123011&psd=1&keywords=sarong'
   },
@@ -666,7 +666,7 @@ let items = [
     size: Sarong2,
     imageUrl: './img/Sarong2.jpg',
     price: 7.89,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Timistar-Womens-Swimwear-Chiffon-Swimsuit/dp/B07338BGX8/ref=sr_1_40?s=apparel&ie=UTF8&qid=1508472979&sr=1-40&nodeID=7141123011&psd=1&keywords=sarong'
   },
@@ -676,7 +676,7 @@ let items = [
     size: Sarong3,
     imageUrl: './img/Sarong3.jpg',
     price: 11.99,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Shu-Shi-Womens-Sarong-Swimsuit-Bikini/dp/B01M5GL3O4/ref=sr_1_51?s=apparel&ie=UTF8&qid=1508472979&sr=1-51&nodeID=7141123011&psd=1&keywords=sarong'
   },
@@ -686,7 +686,7 @@ let items = [
     size: Sarong4,
     imageUrl: './img/Sarong4.jpg',
     price: 15.99,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Ingear-Swimwear-Batik-Sarong-Swimsuit/dp/B06Y5Y176F/ref=sr_1_61?s=apparel&ie=UTF8&qid=1508472979&sr=1-61&nodeID=7141123011&psd=1&keywords=sarong'
   },
@@ -696,7 +696,7 @@ let items = [
     size: GrassSkirt5,
     imageUrl: './img/GrassSkirt5.jpg',
     price: 8.99,
-    bodySection: 'legs',
+    bodySection: 'legWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Rhode-Island-Novelty-Natural-Costumes/dp/B00CRKIBKC/ref=sr_1_4?s=apparel&ie=UTF8&qid=1508473071&sr=1-4&nodeID=7141123011&psd=1&keywords=grass+skirt'
   },
@@ -706,7 +706,7 @@ let items = [
     size: Sandals1,
     imageUrl: './img/Sandals1.jpg',
     price: 19.99,
-    bodySection: 'feet',
+    bodySection: 'footWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Billabong-Womens-Crossing-Over-Sandal/dp/B013LWT9HI/ref=sr_1_7?s=apparel&ie=UTF8&qid=1508473213&sr=1-7&nodeID=7147440011&psd=1&keywords=beach+sandals+for+women'
   },
@@ -716,7 +716,7 @@ let items = [
     size: Sandals2,
     imageUrl: './img/Sandals2.jpg',
     price: 8.98,
-    bodySection: 'feet',
+    bodySection: 'footWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Tenworld-Summer-Bohemia-Sandals-Flip-flop/dp/B01DXSY0QA/ref=sr_1_12?s=apparel&ie=UTF8&qid=1508473213&sr=1-12&nodeID=7147440011&psd=1&keywords=beach+sandals+for+women'
   },
@@ -726,7 +726,7 @@ let items = [
     size: Sandals3,
     imageUrl: './img/Sandals3.jpg',
     price: 37.25,
-    bodySection: 'feet',
+    bodySection: 'footWear',
     characterName: 'Moana',
     amazonLink: 'https://www.amazon.com/Disney-Moana-Costume-Shoes-428431275611/dp/B01M25YEO2/ref=sr_1_2?s=apparel&ie=UTF8&qid=1508473279&sr=1-2&nodeID=7141123011&psd=1&keywords=moana+sandals'
   },
