@@ -39,9 +39,8 @@ class Main extends Component {
     console.log("MAIN STATE", this.state);
     return (
       <div className="mainWindow">
-        <div>MAIN WINDOW</div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+          <OwlCarousel className="owl-theme headWear" loop margin={10} items={4}>
             {this.state.charSelection.head.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
@@ -52,7 +51,7 @@ class Main extends Component {
           </OwlCarousel>
           </div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+          <OwlCarousel className="owl-theme headWear" loop margin={10} items={4}>
             {this.state.charSelection.bodyWear.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
@@ -63,7 +62,7 @@ class Main extends Component {
           </OwlCarousel>
           </div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+          <OwlCarousel className="owl-theme headWear" loop margin={10} items={4}>
             {this.state.charSelection.legWear.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
@@ -74,7 +73,7 @@ class Main extends Component {
           </OwlCarousel>
           </div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+          <OwlCarousel className="owl-theme headWear" loop margin={10} items={4}>
             {this.state.charSelection.footWear.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
@@ -85,7 +84,7 @@ class Main extends Component {
           </OwlCarousel>
           </div>
           <div className="carouselRow">
-          <OwlCarousel className="owl-theme headWear" loop margin={10}>
+          <OwlCarousel className="owl-theme headWear" loop margin={10} items={4}>
             {this.state.charSelection.accessories.map((item,index) => {
               return (
                 <div className="item img-responsive carouselImg" key={index}>
