@@ -10,7 +10,7 @@ This app is a demo for how the fully funcioning site would behave.  Type in "Tho
 This was built using a simple create-react-app.  Just clone the repo and run npm start
 
 # collaborators
-Brian Connor (Dev)
-Chase Deger (Dev)
-Ralf Wiebeck (UX)
-Sam Beattie (UX)
+* Brian Connor (Dev)
+* Chase Deger (Dev)
+* Ralf Wiebeck (UX)
+* Sam Beattie (UX)
