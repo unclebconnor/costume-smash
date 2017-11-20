@@ -3,6 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # costume-smash
 Winner of the UX/DI Halloween hackathon!
 
+# View the live demo:
+https://costumesmash.herokuapp.com/
+
 # basics
 This app is a demo for how the fully funcioning site would behave.  Type in "Thor" or "Moana" (case sensitive) in the search bar, then click on the different elements in the carousels to build your costume.
 
